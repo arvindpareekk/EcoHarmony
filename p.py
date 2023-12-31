@@ -1,0 +1,16 @@
+
+
+a=float(input("Enter First Number:"))
+b=float(input("Enter Second Number:"))
+
+operation = input ("Enter operation(+,-,*,/:)")
+if operation== '+':
+    print(a+b);
+elif operation== '-':
+    print(a-b);
+elif operation== '*':
+    print(a*b);
+elif operation== 'a/b':
+    print(a/b);
+else:
+    print("invalid operation")
